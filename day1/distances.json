@@ -1,0 +1,65 @@
+{
+  "destination_addresses": [
+    "Needham, MA, USA",
+    "St. Louis, MI, USA"
+  ],
+  "origin_addresses": [
+    "Long Beach, CA, USA",
+    "Claremont, CA, USA"
+  ],
+  "rows": [
+    {
+      "elements": [
+        {
+          "distance": {
+            "text": "4,810 km",
+            "value": 4809845
+          },
+          "duration": {
+            "text": "1 day 19 hours",
+            "value": 156597
+          },
+          "status": "OK"
+        },
+        {
+          "distance": {
+            "text": "3,672 km",
+            "value": 3671524
+          },
+          "duration": {
+            "text": "1 day 9 hours",
+            "value": 118013
+          },
+          "status": "OK"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "distance": {
+            "text": "4,737 km",
+            "value": 4737403
+          },
+          "duration": {
+            "text": "1 day 19 hours",
+            "value": 154169
+          },
+          "status": "OK"
+        },
+        {
+          "distance": {
+            "text": "3,599 km",
+            "value": 3599083
+          },
+          "duration": {
+            "text": "1 day 8 hours",
+            "value": 115585
+          },
+          "status": "OK"
+        }
+      ]
+    }
+  ],
+  "status": "OK"
+}

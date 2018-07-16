@@ -1,0 +1,20 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+graph [ranksep=equally, splines=polyline] ;
+0 [label="sepallen <= 5.45\ngini = 0.666\nsamples = 94\nvalue = [49, 45, 47]\nclass = setosa", fillcolor="#e5813905"] ;
+1 [label="petalwid <= 0.75\ngini = 0.267\nsamples = 34\nvalue = [45, 5, 3]\nclass = setosa", fillcolor="#e58139d4"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.0\nsamples = 30\nvalue = [45, 0, 0]\nclass = setosa", fillcolor="#e58139ff"] ;
+1 -> 2 ;
+3 [label="gini = 0.469\nsamples = 4\nvalue = [0, 5, 3]\nclass = versicolor", fillcolor="#39e58166"] ;
+1 -> 3 ;
+4 [label="petallen <= 4.85\ngini = 0.541\nsamples = 60\nvalue = [4, 40, 44]\nclass = virginica", fillcolor="#8139e515"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label="gini = 0.169\nsamples = 29\nvalue = [4, 39, 0]\nclass = versicolor", fillcolor="#39e581e5"] ;
+4 -> 5 ;
+6 [label="gini = 0.043\nsamples = 31\nvalue = [0, 1, 44]\nclass = virginica", fillcolor="#8139e5f9"] ;
+4 -> 6 ;
+{rank=same ; 0} ;
+{rank=same ; 1; 4} ;
+{rank=same ; 2; 3; 5; 6} ;
+}

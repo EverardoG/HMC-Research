@@ -1,0 +1,33 @@
+<html>
+
+<link rel="stylesheet" href="starter.css">
+
+<body>
+
+# Claremont Colleges
+
+The Claremont Colleges are a _consortium_ of ~five~ undergraduate institutions in
+southern California. We list them here:
+
+## The 5Cs: a list
+
+   + Pomona
+   + CMC
+   + Pitzer
+   + Scripps
+   + HMC
+
+## Today's featured college: Scripps
+
+<img src="https://www.mparchitects.com/site/sites/default/files/images/scripps-mp-01.jpg" height=200>
+
+##### About the featured colleges:
+Of course, the ~featured colleges~ are *very* special.
+
+Read more about them at this place: @https://docs.google.com/document/d/1t5k6zvrACEAc4k326ws3xqyfoW1dDWW4EjcTgwqbFJc/edit@
+
+color:"blue": CHECK OUT THIS BLUE TEXT
+
+</body>
+
+</html>
